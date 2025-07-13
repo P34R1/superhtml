@@ -1,0 +1,55 @@
+{
+  "lsp_kit-0.1.0-hAAxO8G9AACr9SwC5FsYac37Bn7yi968x2UMq4wxKlgr": {
+    "name": "lsp_kit",
+    "url": "git+https://github.com/kristoff-it/zig-lsp-kit#46e2b958c02dc4ed2d4784f8841ba7d2076da783",
+    "hash": "sha256-yfBuIUiwJbFBev1nys3hmDIzaVfeSUJre7clqQvbavw=",
+    "rev": "46e2b958c02dc4ed2d4784f8841ba7d2076da783"
+  },
+  "diffz-0.0.1-G2tlIQrOAQCfH15jdyaLyrMgV8eGPouFhkCeYFTmJaLk": {
+    "name": "diffz",
+    "url": "git+https://github.com/ziglibs/diffz.git#a20dd1f11b10819a6f570f98b42e1c91e3704357",
+    "hash": "sha256-y7Ck5XZNnHxmPPWlDAqZZ2g3n67txj5/Zq04AhuW5+M=",
+    "rev": "a20dd1f11b10819a6f570f98b42e1c91e3704357"
+  },
+  "lsp_codegen-0.1.0-CMjjo0ZXCQB-rAhPYrlfzzpU0u0u2MeGvUucZ-_g32eg": {
+    "name": "lsp_codegen",
+    "url": "git+https://github.com/zigtools/zig-lsp-codegen#063a98c13a2293d8654086140813bdd1de6501bc",
+    "hash": "sha256-KzRi/a3FCS11Mryin9skkf3rFrIuoMP8+RcU0IuYNBA=",
+    "rev": "063a98c13a2293d8654086140813bdd1de6501bc"
+  },
+  "zig_afl_kit-0.1.0-3k74fQAdAABrirJM84Lo-lnl9mnUMwtJCSPPyIJ0OzAr": {
+    "name": "afl_kit",
+    "url": "git+https://github.com/kristoff-it/zig-afl-kit#39c33d45dbe3605a9ef7cab863620d1ca78a3623",
+    "hash": "sha256-wLHyZVjmUu6lNZBlGwuaX5XnKbEdMtov7YxJqn5IF3g=",
+    "rev": "39c33d45dbe3605a9ef7cab863620d1ca78a3623"
+  },
+  "AFLplusplus-4.21.0-aA1y4dFrAAB5IR-iHNHVO3lwlK3Blq2Xx-9I3vsxOKMF": {
+    "name": "AFLplusplus",
+    "url": "git+https://github.com/allyourcodebase/AFLplusplus#bf7d9cc91a3897c3ed9a65b04141c87dded1bfe7",
+    "hash": "sha256-INL603zLnfPYIGgUaOQ0DQBwsRQJ6L7kG61D8YosuzI=",
+    "rev": "bf7d9cc91a3897c3ed9a65b04141c87dded1bfe7"
+  },
+  "N-V-__8AAKE4uAAJZgEcPdaXnWqoj-IwYf3G2h9YSm-x92gg": {
+    "name": "AFLplusplus",
+    "url": "https://github.com/AFLplusplus/AFLplusplus/archive/v4.21c.tar.gz",
+    "hash": "sha256-EffHfTfP9uf2WsfMVbq3kB4MYgjoRaOHZDlNBO1WezA="
+  },
+  "known_folders-0.0.0-Fy-PJtLDAADGDOwYwMkVydMSTp_aN-nfjCZw6qPQ2ECL": {
+    "name": "known_folders",
+    "url": "git+https://github.com/ziglibs/known-folders#aa24df42183ad415d10bc0a33e6238c437fc0f59",
+    "hash": "sha256-YiJ2lfG1xsGFMO6flk/BMhCqJ3kB3MnOX5fnfDEcmMY=",
+    "rev": "aa24df42183ad415d10bc0a33e6238c437fc0f59"
+  },
+  "tracy-0.0.0-4Xw-1pwwAABTfMgoDP1unCbZDZhJEfict7XCBGF6IdIn": {
+    "name": "tracy",
+    "url": "git+https://github.com/kristoff-it/tracy#67d2d89e351048c76fc6d161e0ac09d8a831dc60",
+    "hash": "sha256-BKo1bhua/u+f5Z//ailur5aSHZWp3GiC0iwmVLrGZkE=",
+    "rev": "67d2d89e351048c76fc6d161e0ac09d8a831dc60"
+  },
+  "scripty-0.1.0-LKK5O83DAACoGpVDkm8JxzgevTE76bkf0n3mHyTej9nb": {
+    "name": "scripty",
+    "url": "git+https://github.com/kristoff-it/scripty#131704ebf9b3557c9480248787bd7b640a6ac98d",
+    "hash": "sha256-wl9Wy/jFIv9QM9ErYpsF7teRLzzGzKneoxnwF3nwMFw=",
+    "rev": "131704ebf9b3557c9480248787bd7b640a6ac98d"
+  }
+}
