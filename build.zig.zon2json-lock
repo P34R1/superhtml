@@ -1,33 +1,15 @@
 {
-  "lsp_kit-0.1.0-hAAxO8G9AACr9SwC5FsYac37Bn7yi968x2UMq4wxKlgr": {
-    "name": "lsp_kit",
-    "url": "git+https://github.com/kristoff-it/zig-lsp-kit#46e2b958c02dc4ed2d4784f8841ba7d2076da783",
-    "hash": "sha256-yfBuIUiwJbFBev1nys3hmDIzaVfeSUJre7clqQvbavw=",
-    "rev": "46e2b958c02dc4ed2d4784f8841ba7d2076da783"
-  },
-  "diffz-0.0.1-G2tlIQrOAQCfH15jdyaLyrMgV8eGPouFhkCeYFTmJaLk": {
-    "name": "diffz",
-    "url": "git+https://github.com/ziglibs/diffz.git#a20dd1f11b10819a6f570f98b42e1c91e3704357",
-    "hash": "sha256-y7Ck5XZNnHxmPPWlDAqZZ2g3n67txj5/Zq04AhuW5+M=",
-    "rev": "a20dd1f11b10819a6f570f98b42e1c91e3704357"
-  },
-  "lsp_codegen-0.1.0-CMjjo0ZXCQB-rAhPYrlfzzpU0u0u2MeGvUucZ-_g32eg": {
-    "name": "lsp_codegen",
-    "url": "git+https://github.com/zigtools/zig-lsp-codegen#063a98c13a2293d8654086140813bdd1de6501bc",
-    "hash": "sha256-KzRi/a3FCS11Mryin9skkf3rFrIuoMP8+RcU0IuYNBA=",
-    "rev": "063a98c13a2293d8654086140813bdd1de6501bc"
-  },
-  "zig_afl_kit-0.1.0-3k74fQAdAABrirJM84Lo-lnl9mnUMwtJCSPPyIJ0OzAr": {
+  "afl_kit-0.1.0-NdJ3cvscAACLEvjZTB017IAks_Uq5ux1qpA-klDe384Y": {
     "name": "afl_kit",
-    "url": "git+https://github.com/kristoff-it/zig-afl-kit#39c33d45dbe3605a9ef7cab863620d1ca78a3623",
-    "hash": "sha256-wLHyZVjmUu6lNZBlGwuaX5XnKbEdMtov7YxJqn5IF3g=",
-    "rev": "39c33d45dbe3605a9ef7cab863620d1ca78a3623"
+    "url": "git+https://github.com/kristoff-it/zig-afl-kit#8ef04d1db48650345dca68da1e1b8f2615125c40",
+    "hash": "sha256-J0xbmsokjlhOav9KLlH2y4qiSgBit4nS+x6Q10L2OSA=",
+    "rev": "8ef04d1db48650345dca68da1e1b8f2615125c40"
   },
-  "AFLplusplus-4.21.0-aA1y4dFrAAB5IR-iHNHVO3lwlK3Blq2Xx-9I3vsxOKMF": {
+  "AFLplusplus-4.21.0-aA1y4UtxAABpnSIF7ARSYDMRyqNcI-2Rwa5UeSsuw70v": {
     "name": "AFLplusplus",
-    "url": "git+https://github.com/allyourcodebase/AFLplusplus#bf7d9cc91a3897c3ed9a65b04141c87dded1bfe7",
-    "hash": "sha256-INL603zLnfPYIGgUaOQ0DQBwsRQJ6L7kG61D8YosuzI=",
-    "rev": "bf7d9cc91a3897c3ed9a65b04141c87dded1bfe7"
+    "url": "git+https://github.com/allyourcodebase/AFLplusplus#a52f1376e2d49720c39e4abf4aa4944afbf82191",
+    "hash": "sha256-AlkULC20/RTGMTPk2xWcdXCQlWn3sY3VrD0NRRoTZqY=",
+    "rev": "a52f1376e2d49720c39e4abf4aa4944afbf82191"
   },
   "N-V-__8AAKE4uAAJZgEcPdaXnWqoj-IwYf3G2h9YSm-x92gg": {
     "name": "AFLplusplus",
@@ -46,10 +28,16 @@
     "hash": "sha256-BKo1bhua/u+f5Z//ailur5aSHZWp3GiC0iwmVLrGZkE=",
     "rev": "67d2d89e351048c76fc6d161e0ac09d8a831dc60"
   },
-  "scripty-0.1.0-LKK5O83DAACoGpVDkm8JxzgevTE76bkf0n3mHyTej9nb": {
+  "lsp_kit-0.1.0-bi_PL5IyCgCh6ZNq1VaDklFqV0u23xNSXONjfDpYceJr": {
+    "name": "lsp_kit",
+    "url": "git+https://github.com/zigtools/lsp-kit#e58d398b4058eea09d984d5d039eddd243e535ad",
+    "hash": "sha256-0q1l1zAUC/9/bSvj0ziheVMQmsTVUPPYR3RHS+FeEs0=",
+    "rev": "e58d398b4058eea09d984d5d039eddd243e535ad"
+  },
+  "scripty-0.1.0-LKK5O2zEAADkO2rJa_QbMWwC_YmFnUKC384wwMeBGOQv": {
     "name": "scripty",
-    "url": "git+https://github.com/kristoff-it/scripty#131704ebf9b3557c9480248787bd7b640a6ac98d",
-    "hash": "sha256-wl9Wy/jFIv9QM9ErYpsF7teRLzzGzKneoxnwF3nwMFw=",
-    "rev": "131704ebf9b3557c9480248787bd7b640a6ac98d"
+    "url": "git+https://github.com/kristoff-it/scripty#3d56bb62a1aec0b07b634aea42ec46e72e017e33",
+    "hash": "sha256-4BAcj6UU1BpKrcmM3zGwyV5Lxah9wL8esUSucfmlHzs=",
+    "rev": "3d56bb62a1aec0b07b634aea42ec46e72e017e33"
   }
 }

@@ -3,7 +3,8 @@
 
   inputs = {
     flake-utils.follows = "zig2nix/flake-utils";
-    zig2nix.url = "github:Cloudef/zig2nix";
+    zig2nix.url = "github:p34r1/zig2nix";
+    # zig2nix.url = "github:Cloudef/zig2nix";
   };
 
   outputs =
@@ -15,7 +16,8 @@
     flake-utils.lib.eachDefaultSystem (
       system:
       let
-        env = zig2nix.outputs.zig-env.${system} { };
+        zig-master = zig2nix.outputs.packages.${system}.zig-master;
+        env = zig2nix.outputs.zig-env.${system} { zig = zig-master; };
       in
       with env.pkgs.lib;
       rec {
@@ -49,7 +51,7 @@
         });
 
         # nix run .#zon2lock
-        apps.zon2lock = env.app [ ] "zig2nix zon2lock build.zig.zon";
+        apps.zon2lock = env.app [ ] "zig2nix zon2lock";
 
         devShells.default = env.mkShell {
           # Packages required for compiling, linking and running
