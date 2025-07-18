@@ -1,22 +1,20 @@
-const vm = @import("vm.zig");
 const std = @import("std");
+const Writer = std.Io.Writer;
+const vm = @import("vm.zig");
+
+pub const VM = vm.VM;
+pub const Exception = vm.Exception;
 pub const html = @import("html.zig");
 pub const css = @import("css.zig");
 pub const Ast = @import("Ast.zig");
-pub const VM = vm.VM;
-pub const Exception = vm.Exception;
 
 pub const HtmlSafe = struct {
     bytes: []const u8,
 
     pub fn format(
         self: HtmlSafe,
-        comptime fmt: []const u8,
-        options: std.fmt.FormatOptions,
-        out_stream: anytype,
+        out_stream: *Writer,
     ) !void {
-        _ = options;
-        _ = fmt;
         for (self.bytes) |b| {
             switch (b) {
                 '&' => try out_stream.writeAll("&amp;"),
